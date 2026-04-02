@@ -1,0 +1,21 @@
+{
+  "name": "sign-language-detector",
+  "version": "1.0.0",
+  "description": "Real-time Sign Language Detection using TensorFlow.js + MediaPipe Hands",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "@tensorflow/tfjs": "^4.17.0",
+    "@tensorflow-models/hand-pose-detection": "^2.0.1",
+    "@mediapipe/hands": "^0.4.1646424915"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version"]
+  }
+}
