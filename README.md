@@ -1,6 +1,6 @@
 ---
 
-# 🖐 SLD — Real-Time Sign Language Detector
+## 🖐 SLD — Real-Time Sign Language Detector
 
 **SLD** is a high-performance, browser-based Sign Language detection application. Unlike traditional AI projects, this requires **no backend, no Python, and no external server**—the entire machine learning pipeline runs directly in your browser using the user's GPU.
 
