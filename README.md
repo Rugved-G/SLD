@@ -32,7 +32,7 @@ This application leverages TensorFlow.js and MediaPipe Hands to perform real-tim
 To ensure Vercel can deploy this correctly, your repository should follow this structure:
 SLD/
 ├── public/
-│   └── index.html           # Main entry point (renamed from index (8).html)
+│   └── index.html           
 ├── src/
 │   ├── hooks/
 │   │   ├── useHandDetection.js # TF.js model & detection loop
