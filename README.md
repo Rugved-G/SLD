@@ -50,7 +50,7 @@ The current version of **SLD** supports the following gestures out of the box:
 | 🤟 **ILY** | I Love You | Thumb, index, and pinky extended |
 | 👌 **OK** | F | Thumb and index tips touching |
 
----
+--- 
 
 ## 🛠 Setup & Installation
 
