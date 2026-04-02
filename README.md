@@ -1,5 +1,3 @@
-This is a solid project structure. Since you're moving forward with the **SLD** (Sign Language Detector) name, here is the complete, formatted **README.md** and a project description tailored for your GitHub repository and Vercel deployment.
-
 ---
 
 # 🖐 SLD — Real-Time Sign Language Detector
@@ -23,7 +21,7 @@ To ensure Vercel can deploy this correctly, your repository should follow this s
 ```text
 SLD/
 ├── public/
-│   └── index.html           # Main entry point (renamed from index (8).html)
+│   └── index.html          
 ├── src/
 │   ├── hooks/
 │   │   ├── useHandDetection.js # TF.js model & detection loop
@@ -82,8 +80,3 @@ This project is pre-configured for Vercel. Simply push your code to GitHub, and 
 * **Hardware**: A dedicated GPU (even an integrated one) significantly boosts the FPS via the WebGL backend.
 
 ---
-
-## 🔮 Future Roadmap
-1.  **Full Alphabet**: Expanding from 10 gestures to the full A-Z ASL alphabet.
-2.  **Sentence Building**: Implementing a delay-based buffer to string letters into words.
-3.  **Dynamic Signs**: Using an LSTM (Long Short-Term Memory) model to detect moving signs like "Thank You."
