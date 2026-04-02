@@ -1,6 +1,7 @@
+
 ---
 
-## 🖐 SLD — Real-Time Sign Language Detector
+# 🖐 SLD — Real-Time Sign Language Detector
 
 **SLD** is a high-performance, browser-based Sign Language detection application. Unlike traditional AI projects, this requires **no backend, no Python, and no external server**—the entire machine learning pipeline runs directly in your browser using the user's GPU.
 
@@ -21,7 +22,7 @@ To ensure Vercel can deploy this correctly, your repository should follow this s
 ```text
 SLD/
 ├── public/
-│   └── index.html          
+│   └── index.html           # Main entry point (renamed from index (8).html)
 ├── src/
 │   ├── hooks/
 │   │   ├── useHandDetection.js # TF.js model & detection loop
@@ -50,7 +51,7 @@ The current version of **SLD** supports the following gestures out of the box:
 | 🤟 **ILY** | I Love You | Thumb, index, and pinky extended |
 | 👌 **OK** | F | Thumb and index tips touching |
 
---- 
+---
 
 ## 🛠 Setup & Installation
 
