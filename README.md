@@ -1,7 +1,16 @@
-🖐 SLD — Real-Time Sign Language Detector
+SLD (Sign Language Detector) is a lightweight, privacy-focused React application that translates hand gestures into text and speech in real-time. By leveraging the user's GPU via WebGL, the app performs complex 3D hand-landmark tracking entirely within the browser—meaning no video data ever leaves the device.
 
-SLD is a high-performance, browser-based Sign Language detection application. Unlike traditional AI projects, this requires no backend, no Python, and no external server—the entire machine learning pipeline runs directly in your browser using the user's GPU.
+Key Features:
 
+⚡ Real-Time Tracking: Powered by MediaPipe Hands for 21-point landmark estimation at up to 30 FPS.
+
+🤖 Intelligent Classification: Custom geometric engine that maps hand shapes to ASL letters and common gestures.
+
+🔊 Voice Synthesis: Integrated Web Speech API to provide audible feedback for detected signs.
+
+🌍 Zero-Latency Deployment: Optimized for Vercel; runs instantly on any device with a webcam.
+
+🔒 Privacy-Centric: Edge-computing approach ensures all image processing stays local.
 
 🚀 Project Overview
 
